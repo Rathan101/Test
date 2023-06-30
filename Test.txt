@@ -1,0 +1,119 @@
+
+																Test
+1. b) 31
+2. c) 20
+3. a) 100
+4. c) 63
+5. c) 43
+6. b) K
+7. a) p
+8. b) FR
+9. c) bccab
+10.a)GOV
+11. 2
+12. 38
+13. window
+14. Sun
+15. BE
+
+																JAVA
+
+1. java: java is a object oriented programing language.
+	javac : javac ia a compiler which is used to compile the java program.
+	
+2. JDK : JDK(java development kit) it is a kit which provide the tools, libraries,and component to run the java program.
+
+	JRE: JRE(java Runtime Environment) it is a software package which provides the necessary runtime environment to run java program.
+	
+	JVM : JVM(java virtual machine) it is a component of java platform which acts as java runtime environment for executing java bytecode.
+	
+	
+3. limitation of array is:
+	a.continuous memory allocation
+	b.fixed size
+	c.insertion and deletion
+	d.inefficient search
+	
+4. class: it is a building block of OOP. It is a blueprint and which define the properties and behavior of objects.
+	Object: object is the instances of class that represent real world things. 
+	signature of the class: The signature of a class in Java typically consists of the access modifiers, class name, and optional class modifiers.
+	
+5. Array: An array is a data structure in programming language that stores the sequence of elements of the same data type.
+		for ex:String[] icecream={"vanila","chocolate","blueberry"}
+
+6. .java file: it is a code which is written by a developer. which can be read, write and also can make changes the extension of this file is ".java", this file will convert to the bytecode after compile.
+	.class file: the .class file is the bytecode after the compile, this is cannot readable by the human. This file is platform independent language, which can run in any system.
+	
+7. The length of the byte code is 6.
+
+8. method signature: A method signature in Java refers to the method name and parameter types. It provides essential information about the method's declaration and helps differentiate it from other methods with the same name but different parameters.
+
+	method name: The name given to the method, which helps identify and call the method.
+
+	parameter types: if Each parameter type is listed in order and separated by commas. The parameter types provide information about the data types.
+
+
+9. java is a object oriented programming language.
+
+10. varibles: variables is used to store the data and then give them a name so that can referenced with in a program.
+	types of variables is:
+	1. class variable: Belong to the class itself and are shared among all instances of the class.
+	2. instance variable: Belong to an instance of a class and have unique values for each instance.
+	3. local variable: declared within a method.
+	
+11. class variable: class variable also known as a static variable. It is a variable that belongs to the class itself. It is declared using the"static" keyword in Java.
+
+12. data type: data types define the types of values that can be stored in variables or returned from methods.
+	1. Primitive data type: these are the basic building blocks of the java they are predefined by the programming language and have fixed size.
+	2. non primitive data type: which is user defined data type which is defined in the class. Which represent the sequence of the characters.
+	
+13.Java Features:
+	1. object oriented
+	2. platform independent
+	3. exception handling
+	4. scalability
+	5. multi threading
+	6. security
+	
+14. types of array in java:
+	1. one dimensional array: it is also known as single dimensional array in which the data is  writtened as linear colllection elements of the same data type
+	for ex: int[] num={0,1,2,3,4};
+	
+	2. two dimensional array: in which the array is represent as a row and column.
+	for ex: int[][] num={{1,2,4},{0,8,6}};
+	
+	3.multi dimensional array: more than two dimensional array is known as multi dimensional array.in which rhe data represent as data structure.
+	for ex: int[][][] num={{0,8,6,},{5,6,7,},{3.9.1}};
+	
+16.System.out.println: System.out.println is a Java statement used to print a line of text or the value of an expression to the output stream.
+
+17. double equal operator: which is represent as "==" which is used to equal comparity between the two  operator.
+	for ex:
+	class Operator
+	{
+		public static void main(String[] args)
+		{
+			int a=5;
+			int b=10;
+			Operator result =(a==b);
+		}
+	}
+	
+18.dot operator:dot operator is used for to access the member of class or object.
+
+19. the base class of all the classes is called for "object".
+
+20. java keywords:
+	class
+	public
+	static
+	void 
+	double
+	string
+	if
+	else
+	for
+	return
+	
+	
+15 the array index will occur when we call the array outside of the expection.
