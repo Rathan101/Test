@@ -1,0 +1,120 @@
+
+																	aptitude
+
+d.maternal uncle
+b.grandfather
+b cousin
+c father
+a son-in-law
+a X*A+Y
+c R
+a brother
+a father
+c S	
+a.10
+d.west
+b.south-east
+a. west
+
+
+																java
+																
+
+1) error: int cannot be convert into boolean
+2) output: 10,100	
+3) Syntax error
+4) the main method is static in java because the JVM(java virtual machine) can call it without creating an instance of the class in main method.
+5)
+	class Reverse
+  {
+	public static void main(String[] args)
+	{
+		int[] arr = {10, 45, 7, 9, 2};
+
+        System.out.print("Original array: ");
+        for (int num : arr) {
+            System.out.print(num + " ");
+        }
+
+        System.out.println();
+
+        System.out.println("Reversed array: ");
+        for (int i = arr.length - 1; i >= 0; i--) {
+            System.out.println(arr[i] + " ");
+        }
+	 }
+  }
+  
+6) 
+
+
+7) done
+8) this.: this is a keyword that refers to the current instance of a class. It is used to differentiate between instance variables and local variables or to eliminate the confusion between class attributes and parameters.
+    this[] : this[] is not a keyword but it is used to reduce the steps of using "this." statement to differentiate between varibles anf local variables.
+	
+9)class Swap
+{
+	public static void main(String[] args) {
+        int a = 5;
+        int b = 10;
+
+        System.out.println("Before swapping: a = " + a + ", b = " + b);
+        a = a + b;
+        b = a - b;
+        a = a - b;
+
+        System.out.println("After swapping: a = " + a + ", b = " + b);
+    }
+}
+
+10) 1.class Pattern {
+    public static void main(String[] args) {
+        int size = 3; 
+        for (int i = 1; i <= size; i++) {
+            for (int j = 1; j <= size; j++) {
+                if (i == j || i == size - j + 1) {
+                    System.out.print("&");
+                } else {
+                    System.out.print(" ");
+                }
+            }
+            System.out.println();
+        }
+    }
+}
+
+10) 2. class Pattern {
+    public static void main(String[] args) {
+        int size = 3;
+
+        for (int i = 1; i <= size; i++) {
+            for (int j = 1; j <= size; j++) {
+                if (i == (size / 2) + 1 && j == (size / 2) + 1) {
+                    System.out.print("& ");
+                } else {
+                    System.out.print("% ");
+                }
+            }
+            System.out.println();
+        }
+    }
+}
+
+10) 3. class Pattern {
+    public static void main(String[] args) {
+        int size = 3;
+
+        for (int i = 1; i <= size; i++) {
+            for (int j = 1; j <= size; j++) {
+                if (i == (size / 2) + 1 && j == (size / 2) + 1) {
+                    System.out.print("  ");
+                } else {
+                    System.out.print("% ");
+                }
+            }
+            System.out.println();
+        }
+    }
+}
+
+
